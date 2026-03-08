@@ -15,12 +15,9 @@ This repository features a high-performance Verilog implementation of a 32-bit F
 * **Functionality**: Multi-mode arithmetic unit (Mode 0: Multiplication, Mode 1: Division).
 
 
-
----
-
 ## **Technical Architecture**
 
-The `floating_point_multi_div` module operates through a combinational logic path optimized for exponent manipulation and mantissa scaling:
+The **floating_point_multi_div** module operates through a combinational logic path optimized for exponent manipulation and mantissa scaling:
 
 ### **1. Signal Extraction & Zero Detection**
 
